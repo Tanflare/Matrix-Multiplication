@@ -18,18 +18,18 @@
 int main() {   
 //--------------------------SETUP---------------------------------------
     //Mode variable
-    int m;
-    cout << "Automatic or Manual? (1 for Auto, 0 for Manual): \n";
-    cin >> m;
+    // int m;
+    // cout << "Automatic or Manual? (1 for Auto, 0 for Manual): \n";
+    // cin >> m;
     
     int x;
     int y;
     ofstream myfile;
 
-    if(m==1)
-    {
+    // if(m==1)
+    // {
        
-    }else{
+    // }else{
         //Matrix variable
         cout << "Please enter an integer value n to generate n by n matrices: \n";
         cin >> x;
@@ -42,7 +42,7 @@ int main() {
         {
             y=0;
         }
-    }
+    //}
 
 
     //creates 3 x*x matrices
